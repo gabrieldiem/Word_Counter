@@ -19,12 +19,20 @@ a {
 .header--home {
     background-color: #012622;
     color: white;
-    text-align: center;
+    text-align: left;
     box-shadow: 0px 0px 4px black;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.icon--header--home {
+    height: 20px;
+    vertical-align:top;
+    padding-right: 5px;
+}
+
 .main-title--header--home {
+    color: white;
     font-size: large;
     font-weight: bolder;
 }
@@ -40,16 +48,18 @@ a {
     color: white;
     text-align: center;
     box-shadow: 0px 0px 4px black;
-    font-size:medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: small;
     vertical-align: bottom;
     font-weight: lighter;
 }
 
 .link--footer--home {
-    color: #cbfffa;
-    font-weight: bold;
+    color: #a9fff6;
+    text-decoration: underline;
 }
 
 .link--footer--home:hover {
-    color: #a8d3cf;
+    color: #a3c0bd;
 }
