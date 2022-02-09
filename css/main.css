@@ -1,13 +1,18 @@
 @import url('https://fonts#googleapis#com/css2?family=Libre+Franklin&display=swap');
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: "Arial",'Libre Franklin', sans-serif;
     background-color: white;
     color: black;
 }
 
 a {
     text-decoration: none;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
 }
 
 #header--home {
@@ -37,7 +42,15 @@ a {
     margin-left: 20px;
 }
 
+#content-wrap {
+    padding-bottom: 35px;
+}
+
 #footer--home {
+    position: absolute;
+    bottom: 0;
+    overflow: auto;
+    width: 100%;
     background-color: #012622;
     color: white;
     text-align: center;
@@ -45,7 +58,6 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: small;
-    vertical-align: bottom;
     font-weight: lighter;
 }
 
