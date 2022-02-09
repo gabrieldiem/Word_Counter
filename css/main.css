@@ -1,5 +1,4 @@
-@import url('https://fonts#googleapis#com/css2?family=Libre+Franklin&display=swap');
-
+/*@import url('https://fonts#googleapis#com/css2?family=Libre+Franklin&display=swap');*/
 body {
     font-family: "Arial",'Libre Franklin', sans-serif;
     background-color: white;
@@ -44,6 +43,14 @@ a {
 
 #content-wrap {
     padding-bottom: 35px;
+}
+
+#textarea-div--home {
+    max-width: 100%;
+}
+
+#textarea--home {
+    max-width: 100%;
 }
 
 #footer--home {
