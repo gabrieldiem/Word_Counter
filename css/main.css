@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
-
-html, body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-}
+@import url('https://fonts#googleapis#com/css2?family=Libre+Franklin&display=swap');
 
 body {
     font-family: 'Libre Franklin', sans-serif;
@@ -16,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-.header--home {
+#header--home {
     background-color: #012622;
     color: white;
     text-align: left;
@@ -25,25 +19,25 @@ a {
     padding-bottom: 5px;
 }
 
-.icon--header--home {
+#icon--header--home {
     height: 20px;
     vertical-align:top;
     padding-right: 5px;
 }
 
-.main-title--header--home {
+#main-title--header--home {
     color: white;
     font-size: large;
     font-weight: bolder;
 }
 
-.subtitle--header--home{
+#subtitle--header--home{
     font-size: small;
     font-weight: lighter;
     margin-left: 20px;
 }
 
-.footer--home {
+#footer--home {
     background-color: #012622;
     color: white;
     text-align: center;
@@ -55,11 +49,11 @@ a {
     font-weight: lighter;
 }
 
-.link--footer--home {
+#link--footer--home {
     color: #a9fff6;
     text-decoration: underline;
 }
 
-.link--footer--home:hover {
+#link--footer--home:hover {
     color: #a3c0bd;
 }

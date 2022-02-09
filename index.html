@@ -12,35 +12,39 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="header--home">
-        <a href=""><span class="main-title--header--home"><img src="img/icon.png" class="icon--header--home" />Word Counter</span></a>
-        <span class="subtitle--header--home">Count words, characters, spaces and paragraphs of your text!</span>
-    </header>
+    <div id="page-container">
+        <header id="header--home">
+            <a href=""><span id="main-title--header--home"><img src="img/icon.png" id="icon--header--home" />Word Counter</span></a>
+            <span id="subtitle--header--home">Count words, characters, spaces and paragraphs of your text!</span>
+        </header>
 
-    <div class="title-div--home">
-        <h1>Text counter (words, characters)</h1>
-        <h4>Paste or write the text in the text box:</h4>
+        <div id="content-wrap">
+            <div id="title-div--home">
+                <h1>Text counter (words, characters)</h1>
+                <h4>Paste or write the text in the text box:</h4>
+            </div>
+
+            <div id="textarea-div--home">
+                <textarea cols="60" rows="8" placeholder="Paste or write here..."></textarea>
+            </div>
+
+            <div id="counted-info-div--home">
+                <h3>Word count:</h3>
+                <h3>Character count</h3>
+
+                <ul>
+                    <li>With spaces:</li>
+                    <li>Without spaces:</li>
+                </ul>
+
+                <h3>Space character count:</h3>
+                <h3>Paragraph count:</h3>
+            </div>
+        </div>
+
+        <footer id="footer--home">
+            Website made for learning purposes by <a href="https://github.com/walgab" target="_blank" id="link--footer--home">walgab</a>
+        </footer>
     </div>
-
-    <div class="textarea-div--home">
-        <textarea cols="60" rows="8" placeholder="Paste or write here..."></textarea>
-    </div>
-
-    <div class="counted-info-div--home">
-        <h3>Word count:</h3>
-        <h3>Character count</h3>
-
-        <ul>
-            <li>With spaces:</li>
-            <li>Without spaces:</li>
-        </ul>
-
-        <h3>Space character count:</h3>
-        <h3>Paragraph count:</h3>
-    </div>
-
-    <footer class="footer--home">
-        Website made for learning purposes by <a href="https://github.com/walgab" target="_blank" class="link--footer--home">walgab</a>
-    </footer>
 </body>
 </html>
