@@ -1,12 +1,16 @@
 /*@import url('https://fonts#googleapis#com/css2?family=Libre+Franklin&display=swap');*/
 body {
-    font-family: "Arial","Libre Franklin", sans-serif;
+    font-family: "Arial", sans-serif;
     background-color: white;
     color: black;
 }
 
 a {
     text-decoration: none;
+}
+
+.font-weight-normal {
+    font-weight: normal;
 }
 
 #page-container {
