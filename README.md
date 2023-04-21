@@ -14,4 +14,4 @@ Webpage made for counting characters and words from a pasted text.
 
 ## Live Page
 
-You can try it here: [walgab.github.io/Word_Counter/](https://walgab.github.io/Word_Counter/)
+You can try it here: [https://gabrieldiem.github.io/Word_Counter/](https://gabrieldiem.github.io/Word_Counter/)
