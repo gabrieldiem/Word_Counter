@@ -1,6 +1,6 @@
 # WordCounter
 
-[![es](https://img.shields.io/badge/lang-es-orange.svg)](https://github.com/walgab/Word_Counter/blob/master/README.es.md)
+[![es](https://img.shields.io/badge/leer_en-espa%C3%B1ol_%F0%9F%87%AA%F0%9F%87%B8-darkgreen?style=flat)](https://github.com/walgab/Word_Counter/blob/master/README.es.md)
 
 Webpage made for counting characters and words from a pasted text.
 <br><br>
